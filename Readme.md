@@ -1,3 +1,4 @@
+```yaml
 ---
 - name: Install Elasticsearch **Установка Elasticsearch**   
   hosts: elasticsearch **Название хоста, с которым работаем**    
@@ -96,3 +97,4 @@
       register: filebeat_setup    
       changed_when: false    
       until: filebeat_setup is succeeded    
+```
